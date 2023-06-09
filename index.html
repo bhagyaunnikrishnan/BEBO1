@@ -50,14 +50,67 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/digital-india.png" alt="" height="600" width="100">
+        <img src="assets/img/digital-india.png" alt=""  width="100px" height="600px">
         <h1>CSE CENTER<span>.</span></h1>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>Aadhar Card</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Aadhar Update</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Bharat Bill Pay</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Mobile Recharge</a></li>
+                  <li><a href="#">DTH Recharge</a></li>
+                  <li><a href="#">Electricity Bill Payment</a></li>
+                  <li><a href="#">Water Bill Payment</a></li>
+                  <li><a href="#">Gas Bill Payment</a></li>
+                  <li><a href="#">LIC Bill Payment</a></li>
+                  <li><a href="#">Fastag</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>E-District</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Caste Certificate</a></li>
+                  <li><a href="#">Community Certificate</a></li>
+                  <li><a href="#">Non-Creamylayer</a></li>
+                  <li><a href="#">Birth Certificate</a></li>
+                  <li><a href="#">Death Certificate</a></li>
+                  <li><a href="#">Disability Certificate</a></li>
+                  <li><a href="#">Domicile Certificate</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Travel Service</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Train Booking(IRCTC)</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>PAN Card</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">New PAN Card</a></li>
+                  <li><a href="#">PAN Card Correction</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Voter ID</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Voter ID Apply</a></li>
+                  <li><a href="#">Voter ID Correction</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Passport</a></li>
+              <li><a href="#">Driving License</a></li>
+              <li><a href="#">E-Shram Card</a></li>
+              <li><a href="#">Ration Card</a></li>
+              <li><a href="#">PM Kissan</a></li>
+              <li><a href="#">Photocopy</a></li>
+            </ul>
+          </li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -209,7 +262,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item  position-relative">
               <div class="icon">
-                <i class="bi bi-activity"></i>
+                <img src="assets/img/passport.png" width="100px" alt="">
               </div>
               <h3>PASSPORT</h3>
               <p>You can apply passport of citizens near you through our CSC center.</p>
@@ -220,7 +273,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-broadcast"></i>
+                <img src="assets/img/voterid.png" width="100px" alt="">
               </div>
               <h3>VOTER ID</h3>
               <p>Apply for Voter ID which serve as your identity and acts as an official voting ticket.</p>
@@ -231,7 +284,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-train-front-fill"></i>
+                <img src="assets/img/irctc.png" width="150px" alt="">
               </div>
               <h3>IRCTC(TRAIN BOOKING)</h3>
               <p>Make train e-ticket booking for any destination in the most comfortable way by the CSC Center train ticket booking.</p>
@@ -242,7 +295,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <img src="assets/img/pancard.png" width="150px" alt="">
               </div>
               <h3>PAN CARD</h3>
               <p>Register for PAN Services and get username within 1 day.</p>
@@ -253,7 +306,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
+                <img src="assets/img/driver-license-card.png" width="110px" alt="">
               </div>
               <h3>DRIVING LICENCE</h3>
               <p>Apply for DL, which is in the form of a card, that is issued by your respective government. It signifies that the licence holder is permitted to drive a automobile on public roads in India without the necessity for any supervision.</p>
@@ -264,7 +317,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
+                <img src="assets/img/e-shramcard.jpg" width="120px" alt="">
               </div>
               <h3>E-SHRAM CARD</h3>
               <p>Apply for E-Shram card, which is an evidence of identity and residence of citizens and also used as evidence of applying for making a Domicile instrument, Birth certificate, voter ID card etc.</p>
@@ -275,7 +328,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <img src="assets/img/bill&recharge.webp" width="150px" alt="">
               </div>
               <h3>BILL AND RECHARGE</h3>
               <p>Helps you with mobile recharge, DTH and payments of electricity, water, LIC, gas, fastag etc.</p>
@@ -286,7 +339,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <img src="assets/img/aadharcard.webp" width="200px" alt="">
               </div>
               <h3>AADHAR UPDATE</h3>
               <p>Provide the service of updating your Aadhar</p>
@@ -297,7 +350,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <img src="assets/img/certificate.png" width="70px" alt="">
               </div>
               <h3>E-DISTRICT</h3>
               <p>Provide the service of applying for verious certificates like Income, Caste, Community, Non-creamylayer, Birth/Death, disability and domicile.</p>
@@ -308,7 +361,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <img src="assets/img/pm-kisan-yojana-logo.png" width="200px" alt="">
               </div>
               <h3>PM KISSAN</h3>
               <p>Provide PM Kissan Scheme.</p>
@@ -330,7 +383,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <img src="assets/img/rationcard.jpg" width="75px" alt="">
               </div>
               <h3>RATION CARD</h3>
               <p>Provide the facility for making new ration cards.</p>

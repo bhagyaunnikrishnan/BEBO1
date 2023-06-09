@@ -946,19 +946,6 @@ section {
   position: relative;
 }
 
-.services .service-item .icon:before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: #eeeeee;
-  border-radius: 50px;
-  z-index: 1;
-  top: 10px;
-  right: -20px;
-  transition: 0.3s;
-}
-
 .services .service-item h3 {
   color: var(--color-default);
   font-weight: 700;
